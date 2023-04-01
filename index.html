@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="loading" id="load">Loading&#8230;</div>
+    <div id="buttonAdd">
+        <button id="add">Добавить</button>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content" id="modalContent">
+            <span id="btnClose" class="close">&times;</span>
+            <p>Id:</p>
+            <input id="inputId" class="inputAdd">
+            <p>First name:</p>
+            <input id="inputFirstName" class="inputAdd">
+            <p>Last name:</p>
+            <input id="inputLastName" class="inputAdd">
+            <p>Email:</p>
+            <input id="inputEmail" class="inputAdd">
+            <p>Phone:</p>
+            <input id="inputPhone" class="inputAdd">
+            <br>
+            <button id="btn" class="btn">Добавить в таблицу</button>
+
+        </div>
+    </div>
+
+    <div id="finder">
+        <input id="find">
+        <button id="close">&times;</button>
+        <button id="buttonFind">Найти</button>
+    </div>
+    <table id="table">
+        <thead>
+        <tr id="thead"></tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+    <div id="buttons">
+        <button id="previous">Назад</button>
+        <button id="next">Вперед</button>
+    </div>
+
+
+    <div id="aboutUsers" class="aboutUsersModal">
+        <span id="btnUserClose">&times;</span>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="modal.js"></script>
+</html>
