@@ -1,3 +1,4 @@
+// эта функция показыает модальное окно с добавлением пользователя
 function modalViewUserAdd (obj){
     let buttonAddTable = obj.querySelector('#btn')
 
@@ -37,7 +38,7 @@ function modalViewUserAdd (obj){
         }
     })
 }
-
+// эта функция добавлляет модальное окно с информацией о юзере
 function modalViewAboutUser(table, aboutUsers){
     for (let i = 0; i < tableInfo.users50.length; i++) {
         let tr = table.querySelectorAll('.user')
