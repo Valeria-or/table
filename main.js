@@ -137,7 +137,7 @@ function buttonsClick (button, number){
     })
 }
 
-
+// функция осуществялет поиск пользователей
 function finderUser (finder){
     let find = finder.querySelector('#find')
     let btnClose = finder.querySelector('#close')
